@@ -563,11 +563,11 @@ export default function App() {
   );
 
   return (
-    <div style={{ background:"linear-gradient(160deg,#0d1b3e 0%,#1a1a2e 100%)", minHeight:"100vh", paddingBottom:view==="display"?0:70 }}>
+    <div style={{ background:"linear-gradient(160deg,#0d1b3e 0%,#1a1a2e 100%)", minHeight:"100vh", paddingBottom:70 }}>
       {view==="form"    && <DonorForm onSuccess={refresh} />}
       {view==="display" && <DisplayScreen donations={donations} total={total} confettiKey={confettiKey} appUrl={appUrl} />}
       {view==="admin"   && <AdminPanel donations={donations} onConfirm={confirmDonation} onDelete={deleteDonation} onRefresh={refresh} appUrl={appUrl} loading={loading} />}
-      {view!=="display" && <Nav />}
+      <Nav />
     </div>
   );
 }
