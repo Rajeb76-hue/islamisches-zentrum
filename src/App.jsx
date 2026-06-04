@@ -4,7 +4,7 @@ import * as XLSX from "xlsx";
 const GOAL = 1600000;
 const INITIAL_COLLECTED = 250000;
 const MIN_AMOUNT = 300;
-const CENTER_NAME_AR = "مركز جسور الإسلامي هانوفر";
+const CENTER_NAME_AR = "التبرع لفائدة مركز جسور الإسلامي هانوفر";
 const CENTER_NAME_DE = "Familienbrücken Hannover e.V.";
 const API_URL = "https://script.google.com/macros/s/AKfycbyXqtbvXIKHCh-BIvOytTGZLkkalFiYPj-9U47PpXe4GWJtf5WoJDJE77Nl2o48pdU/exec";
 const DATENSCHUTZ_TEXT = `Datenschutzhinweis gemäß DSGVO Art. 13:
